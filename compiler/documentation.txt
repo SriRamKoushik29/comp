@@ -1,0 +1,19 @@
+1.Introduction
+Purpose: Developing a SimpleLang compiler for an 8-bit CPU simulator.
+Goals: Educational tool, understanding compiler construction, practical application on a simulated CPU.
+
+2. Compiler Architecture
+Components: Lexer, Parser, Code Generator.
+Flow of information: Tokenization, Parsing (AST generation), Assembly code generation.
+
+3. Language Design (SimpleLang)
+Syntax and semantics:
+Supported constructs: Variables, assignments, conditionals (if statements).
+Constraints: No loops, minimalistic design for educational purposes.
+
+4. Implementation Details
+Detailed explanation of each component:
+Lexer:Token types recognized, Implementation of tokenization.
+Parser: Grammar rules and parsing techniques used, AST structure and node types.
+Code Generator:Mapping SimpleLang constructs to assembly code instructions, Integration with the 8-bit CPU simulator's instruction set.
+
